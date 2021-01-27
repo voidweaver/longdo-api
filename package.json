@@ -20,6 +20,9 @@
         "type": "git",
         "url": "git+https://github.com/voidweaver/longdo-api.git"
     },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "dependencies": {
         "axios": "^0.21.1",
         "cheerio": "^1.0.0-rc.5"
