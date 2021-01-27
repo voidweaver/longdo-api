@@ -21,7 +21,7 @@
         "url": "git+https://github.com/voidweaver/longdo-api.git"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+        "registry": "https://npm.pkg.github.com/@voidweaver"
     },
     "dependencies": {
         "axios": "^0.21.1",
