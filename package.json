@@ -1,6 +1,6 @@
 {
     "name": "longdo-api",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "an unofficial api for Longdo dictionary which return queries as json",
     "main": "src/main.ts",
     "scripts": {
