@@ -1,6 +1,6 @@
 {
     "name": "longdo-api",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "an unofficial api for Longdo dictionary which return queries as json",
     "main": "src/main.ts",
     "scripts": {
@@ -16,6 +16,10 @@
     },
     "author": "voidweaver",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/voidweaver/longdo-api.git"
+    },
     "dependencies": {
         "axios": "^0.21.1",
         "cheerio": "^1.0.0-rc.5"
