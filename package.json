@@ -2,7 +2,7 @@
     "name": "longdo-api",
     "version": "1.0.2",
     "description": "an unofficial api for Longdo dictionary which return queries as json",
-    "main": "src/main.ts",
+    "main": "out/main.js",
     "scripts": {
         "build": "tsc",
         "test": "ts-mocha -p ./tsconfig.json test/*.spec.ts",
