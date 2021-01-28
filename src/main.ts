@@ -45,7 +45,7 @@ export async function search(query: string, cleanup = true): Promise<Record<stri
                 longestLength = Math.max(longestLength, definition.length);
             });
 
-        definitions = clean_2d_array(definitions, longestLength);
+        if (cleanup) definitions = clean_2d_array(definitions, longestLength);
 
         allDefinitions[elem.text()] = definitions;
     });
