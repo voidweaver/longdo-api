@@ -5,9 +5,7 @@ import { clean_2d_array } from './helper';
 export async function search(query: string, cleanup = true): Promise<Record<string, string[][]>> {
     const allDefinitions: Record<string, string[][]> = {};
     const response = await axios.get('https://dict.longdo.com/mobile.php', {
-        params: {
-            search: encodeURIComponent(query),
-        },
+        params: { search: query },
     });
 
     const $ = cheerio.load(response.data);
