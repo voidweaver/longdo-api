@@ -8,6 +8,8 @@ export async function search(query: string, cleanup = true): Promise<Record<stri
         params: { search: query },
     });
 
+    if (response.status != 200) throw new Error(`API didn't respond with status code 200 (got ${response.status})`);
+
     const $ = cheerio.load(response.data);
 
     if ($('#count-result').text() === '0') {
