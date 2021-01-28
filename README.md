@@ -22,12 +22,12 @@ $ yarn add longdo-api
 
 Queries the Longdo API and returns the result (see format [below](#response-sample))
 
-#### Parameters:
+**Parameters:**
 
 -   query: query to search (string)
 -   cleanup: whether to clean up data (string trim, etc.)
 
-#### Returns: [Promise][promise_mdn]Promise&lt;Record&lt;string, string[][]&gt;&gt;;
+**Returns:** [Promise][promise_mdn]&lt;Record&lt;string, string[][]&gt;&gt;
 
 ## Example code
 
